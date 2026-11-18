@@ -1,0 +1,11 @@
+#Left out of every image build. Images install and compile their own dependencies,
+#and secrets myst never reach a build.
+
+.git
+.env
+infra/nginx/certs
+apps/api/uploads
+**/node_modules
+**/dist
+tools/cardgen/data
+tools/cardgen/work
